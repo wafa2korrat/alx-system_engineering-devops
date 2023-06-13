@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -f $(ls -lR | grep '^-' | grep '.js$')
+find . -name "*.js" -type f -delete
